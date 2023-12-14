@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Roboto Slab;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 15px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    font-size: 19px;
+    color: #8a2be2;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(170, 107, 240);
+    height: 1.2px;
+    margin: 40px 50px;
+}
+
+.leftSide {
+    font-size: 25px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.sec1 div> {
+    width: 30%;
+}
+
+.leftSec {
+    font-size: 30px;
+    margin: 80px 0;
+}
+
+.rightSec img {
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+}
+
+.nikitaText {
+    font-size: 32px;
+    color: rgb(170, 107, 240);
+}
+
+.downloadCV{
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #2d0255;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.downloadCV:hover{
+    padding: 12px 42px;
+}
+
+
+.sec2 {
+    margin: auto;
+    max-width: 80vw;
+    font-size: 15px;
+    height: 400px;
+    padding: 20px;
+    background-color:rgb(18, 18, 62);
+}
+
+.textGrey {
+    color: gray;
+}
+
+.firstClass {
+    background-color: white;
+    width: 160vh;
+    height: 3px;
+    margin: 80px 30px;
+    display: flex;
+}
+
+.verticalLines {
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 100px;
+}
+
+.TopImage {
+    width: 45px;
+    position: relative;
+    top: -50px;
+    left: -24px;
+}
+
+.verticalTitle {
+    position: relative;
+    top: 2px;
+    left: -48px;
+    width: 130px;
+    font-size: 16px;
+}
+
+.verticalText {
+    position: relative;
+    width: 150px;
+    top: 5px;
+    left: -47px;
+    color: darkgrey;
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(18, 18, 62);
+    color: white;
+    padding: 23px;
+    justify-content: space-evenly;
+}
+
+footer  ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.linkFooter{
+    list-style: none;    
+}
+
+.imageSocial{
+    height: 20px;
+    width: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.sec3 {
+    margin: auto;
+    max-width: 80vw;
+    font-size: 15px;
+    height: auto;
+    padding: 20px;
+    background-color:rgb(18, 18, 62);
+}
+
+/* Style the container for each project description */
+.secondClass {
+    margin-top: 20px;
+    background-color: rgb(18, 18, 62);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projectDesc {
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.projectDesc h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subDesc{
+    color: rgb(170, 107, 240);
+}
+
+.projectDesc p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
